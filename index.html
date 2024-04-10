@@ -1,122 +1,155 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ilsaf4ik_Games</title> 
+  <title>Ilsaf4ik_Games</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
 
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+    defer></script>
 
   <script src="main.js" defer></script>
-  
- </head>
- <body>
+
+
+</head>
+
+<body>
 
   <header class="header">
-    <a href="home" class="logo">
+    <a href="#home" class="logo paused">
       IG<span>gun</span>
     </a>
+
     <i class="bx bx-menu" id="menu-icon"></i>
 
     <nav class="navbar">
-     <a href="#home">Home</a>
-     <a href="#about">About</a>
-     <a href="#servises">Servises</a>
-     <a href="#projects">Projects</a>
-     <a href="#contacts">Contacts</a>
-    </nav>
+      <a href="#home">Главная</a>
+      <a href="#about">Обо мне</a>
+      <a href="#games">Игры</a>
+      <a href="#videos">Видео</a>
+      <a href="#projects">Мои проекты</a>
+      <a href="#contacts">Контакты</a>
+      <nav>
   </header>
 
   <section class="home" id="home">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="https://img3.akspic.ru/crops/7/3/8/6/6/166837/166837-battlefield_2042-electronic_arts-kosti-shuter-mnogopolzovatelskaya_video_igra-3840x2160.jpg" class="d-block w-100" alt="...">
+          <img src="https://img3.akspic.ru/crops/6/1/7/7/6/167716/167716-spider_verse_into_the_cyberpunk-3840x2160.jpg"
+            class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="https://img1.akspic.ru/crops/6/3/8/6/6/166836/166836-battlefield_2042-electronic_arts-kosti-xbox_serii_x_i_serii_s-mnogopolzovatelskaya_video_igra-3840x2160.jpg" class="d-block w-100" alt="...">
+          <img
+            src="https://img1.akspic.ru/crops/2/9/2/6/5/156292/156292-shahter_nashej_nacii-arkadnaya_igra-razvlechenie-purpur-vizualnyj_effekt_osveshheniya-3840x2160.jpg"
+            class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="https://img2.akspic.ru/crops/3/1/6/6/6/166613/166613-pole_bitvy_2042-kosti-electronic_arts-mnogopolzovatelskaya_video_igra-shuter-3840x2160.jpg" class="d-block w-100" alt="...">
+          <img src="https://img1.akspic.ru/crops/1/8/4/4/6/164481/164481-drakon-sinij-svet-mir-purpur-3840x2160.jpg"
+            class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon Strelka" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
   </section>
 
-  <section class="about" id="about">
-    <div class="About-img">
-      <h1> Hi, It's <span>Ilsaf4ik</span> </h1>
-      <h3 class="text-animation">
-        I'm a <span></span>
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veritatis, ducimus perferendis omnis iste non qui iusto quod aliquam repellat culpa quaerat exercitationem quo quidem, optio aut, vitae assumenda porro?</p>
 
-    
-    <div class="btn-group">
-      <a href="https://vk.com/" class="BTN">Подписаться</a>
-      <a href="#contacts" class="BTN">Контакты</a>
+  <section class="about" id="about">
+    <div class="about-content">
+      <h1> Привет , это <span>Ilsaf4ik</span> </h1>
+      <h3 class="text-animation">
+        Я <span></span>
+      </h3>
+      <p>Создатель этого сайта и своих игр. Я занимаюсь программированием уже давно , но буду улучшать свои навыки.
+      </p>
+
+      <div class="btn-group">
+        <a href="#" class="BTN">Подписаться</a>
+        <a href="#contacts" class="BTN">Контакты</a>
+      </div>
     </div>
-  </div>
-    <div class="About-img">
-      <img src="https://img2.akspic.ru/crops/1/1/6/6/6/166611/166611-pole_bitvy_2042-xbox_one-kosti-electronic_arts-shuter-3840x2160.jpg" alt="">
+
+    <div class="about-img">
+      <img
+        src="https://png.pngtree.com/thumb_back/fh260/background/20230614/pngtree-art-of-minecraft-character-animation-image_2883044.jpg"
+        alt="">
     </div>
   </section>
+
   <section class="games" id="games">
-    <h2 class="heading">Play with Me</h2>
+    <h2 class="heading">Играй со мной</h2>
+    
+
 
     <div class="games-container">
 
       <div class="game-box">
-
         <div class="game-info">
-          <img src="https://www.meme-arsenal.com/memes/c1f711166b99563776b68040b9e19586.jpg" alt="">
-          <h4>ROBLOX</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ratione voluptatum reprehenderit, nulla
-            delectus esse suscipit repellendus pariatur vitae modi ad eveniet nesciunt alias nostrum eligendi beatae,
-            aut cupiditate obcaecati?</p>
-          <a href="https://www.roblox.com">PLAY</a>
+          <img
+            src="https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP"
+            alt="">
+          <h4>Майнкрафт</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id error quasi, placeat sequi illum asperiores
+            doloremque maiores laboriosam recusandae? Distinctio, adipisci magni ipsum id tempora commodi magnam eum
+            odit praesentium voluptates nisi. At, placeat animi! Sint enim ve!</p>
+          <a href="https://tlauncher.org/">Играть</a>
         </div>
+
 
       </div>
 
-      <div class="game-box">
-        <div class="game-info">
-          <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/4/4e/Brawl_Stars.png/640px-Brawl_Stars.png" alt="">
-          <h4>Brawl Starts</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ratione voluptatum reprehenderit, nulla
-            delectus esse suscipit repellendus pariatur vitae modi ad eveniet nesciunt alias nostrum eligendi beatae,
-            aut cupiditate obcaecati?</p>
-          <a href="https://www.roblox.com">PLAY</a>
-        </div>
-      </div>
 
       <div class="game-box">
         <div class="game-info">
           <img
-            src="data:image/jpeg;base64,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"
+            src="https://play-lh.googleusercontent.com/BoAvMI_6JGNRBp_3gFaVuLuqW_4J-rjtbR_giKFoJRvZmDiPtDlnLMur9cT7sTTfeos"
             alt="">
-          <h4>Conter Strike 1.6</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ratione voluptatum reprehenderit, nulla
-            delectus esse suscipit repellendus pariatur vitae modi ad eveniet nesciunt alias nostrum eligendi beatae,
-            aut cupiditate obcaecati?</p>
-          <a href="https://www.roblox.com">PLAY</a>
+          <h4>Террария</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt suscipit hic quas facilis libero quae ut
+            placeat et accusantium, consequuntur, aspernatur odit veniam, exercitationem iste iusto! Ut quo it!</p>
+          <a href="https://itorrents-igruha.org/1023-terraria-terrariya.html">Играть</a>
         </div>
       </div>
 
+
+
+
+
+
+      <div class="game-box">
+        <div class="game-info">
+          <img
+            src="https://steamuserimages-a.akamaihd.net/ugc/1009310639741043947/C4780FD7B53B39EFE4A536842FC1281A48A1256F/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+            alt="">
+          <h4>Валорант</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis impedit facere maxime earum sint at
+            aliquam, temporibus neque laborum, repudiandae aperiam similique eligendi iusto delectus maiores. Sequi
+            tempore suscipit aliquam quisquam tenetur rerum quibusdam provident ?</p>
+          <a href="https://playvalorant.com/ru-ru/">Играть</a>
+        </div>
+      </div>
 
 
     </div>
@@ -124,43 +157,56 @@
   </section>
 
 
+  <section class="videos" id="videos">
 
+    <div class="videos">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/RrAXfYRII70?si=7lr0qKh83_qb_8Nz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+      
+    
+  
+  </section>
   <footer>
     <div class="waves">
       <div class="wave" id="wave1"></div>
       <div class="wave" id="wave2"></div>
       <div class="wave" id="wave3"></div>
       <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icons">
+        <li>
+          <a href="">
+            <i class='bx bxl-vk'></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class='bx bxl-telegram' ></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class='bx bxl-discord-alt'></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li>
+          <a href="#home">Главная</a>
+          <a href="#about">Обо мне</a>
+          <a href="#games">Игры</a>
+          <a href="#projects">Мои проекты</a>
+          <a href="#contacts">Контакты</a>
+        </li>
+      </ul>
+      <p>Я советую покупать игры , а не скачивать  пиратку</p>
     </div>
-    <ul class="social-icons">
-      <li>
-        <a href="">
-          <i class='bx bxl-vk'></i>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <i class='bx bxl-youtube'></i>
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <i class='bx bxl-telegram'></i>
-        </a>
-      </li>
-    </ul>
-    <ul class="menu">
-      <li>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#games">Games</a>
-        <a href="#projects">Projects</a>
-        <a href="#contacts">Contacts</a>
-      </li>
-    </ul>
-    <p class="vverh">FROM RUSSIA WITH LOVE</p>
-    <p>Made by Me</p>
   </footer>
 
- </body>
- </html>
+
+<audio class="audio" src="audio2.mp3"></audio>
+
+
+</body>
+
+</html>
